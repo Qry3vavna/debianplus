@@ -19,7 +19,7 @@ append to your .bashrc
 
 ###ALIASES:
 `get`
->Shortcut for apt-get install -y, to quickly install given tool
+>Shortcut for apt-get install -y, to quickly install given tool<br/>
 >Usage: `get tool`
 
 `update`
@@ -29,24 +29,24 @@ append to your .bashrc
 >Shortcut for clear (though CTRL+L is even less typing)
 
 `bounce`
->Shortcut for ifdown interface && ifup interface
->Interface has to be defined in /etc/network/interfaces
->Usage: `bounce interface`
+>Shortcut for ifdown interface && ifup interface<br/>
+>Interface has to be defined in /etc/network/interfaces<br/>
+>Usage: `bounce interface`<br/>
 >Example: `bounce eth0`
 
 `p`
->Shortcut for ps -ef, but also allows for cascading greps
->Usage: `p`             Same as ps -ef
->Usage: `p pts`         Same as ps -ef | grep -i pts | grep -v grep
+>Shortcut for ps -ef, but also allows for cascading greps<br/><br/>
+>Usage: `p`             Same as ps -ef<br/>
+>Usage: `p pts`         Same as ps -ef | grep -i pts | grep -v grep<br/>
 >Usage: `p pts bash`    Same as ps -ef | grep -i pts | grep -i bash | grep -v grep
 
 `search`
->Search for tools in your repos by keywords
->Shortcut for apt-cache search tool with cascading greps
->Usage: `search nmap`         Shows packages referencing nmap
+>Search for tools in your repos by keywords<br/>
+>Shortcut for apt-cache search tool with cascading greps<br/>
+>Usage: `search nmap`         Shows packages referencing nmap<br/>
 >Usage: `search nmap python`  Same as apt-cache search nmap | grep -i python
 
 `show`
->Search for tools installed by keyword, if installed shows its info
->Shortcut for aptitude show tool and dpkg -L tool
+>Search for tools installed by keyword, if installed shows its info<br/>
+>Shortcut for aptitude show tool and dpkg -L tool<br/>
 >Usage: `show iptables`
