@@ -14,7 +14,8 @@ v0.1 JAN2015 ::Qry3v@vna~*
 Collection of scripts and aliases for my convenience to type less and do more.
 
 ###USAGE:
-`append to your .bashrc`
+append to your .bashrc
+`cat aliases >>~/.bashrc`
 
 ###MODS:
 [... To do: Add what each thing does... ]
