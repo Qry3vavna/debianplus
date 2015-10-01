@@ -69,5 +69,8 @@ scriptd() {
     startscriptd='. $fc'
     eval "$startscriptd"
   fi
-
+}
+hr() {
+  # print horizontal line the whole width of terminal. By default with '-'. USAGE: hr || hr \# || hr x
+  printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' "${1--}"
 }
